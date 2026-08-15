@@ -126,16 +126,16 @@ export default function Footer({ activePage, setActivePage }: FooterProps) {
               />
             </div>
             <span className="font-heading font-black text-base text-zinc-100 group-hover:text-cyber-violet transition-colors">
-              MANAN<span className="text-cyber-blue">CODES</span>
+              BUILD WITH <span className="text-cyber-blue">KM</span>
             </span>
           </div>
 
           <p className="font-sans text-xs text-zinc-400 font-light leading-relaxed max-w-sm">
-            Bespoke interactive systems constructed to modern standards. Overcoming stagnant templates with highly-optimized modules and fluid animations.
+            Made for What&apos;s Next. Bespoke interactive systems constructed to modern standards with highly-optimized modules and fluid animations.
           </p>
 
           <span className="font-mono text-[9px] text-zinc-600 tracking-wider">
-            © 2026 MANANCODES NODE. PRODUCED DIRECTLY OUT OF MUMBAI, IN.
+            © 2026 BUILD WITH KM. MADE FOR WHAT&apos;S NEXT.
           </span>
         </div>
 

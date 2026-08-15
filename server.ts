@@ -33,10 +33,10 @@ function getGeminiClient(): GoogleGenAI {
 function getFallbackResponse(message: string): string {
   const msg = message.toLowerCase();
   if (msg.includes("hello") || msg.includes("hi") || msg.includes("hey")) {
-    return "Hello! I am the MananCodes Cybernetic AI Agent. How can I help you elevate your digital presence today? We build premium, blazing-fast websites with dark cyber aesthetics.";
+    return "Hello! I am the Build With KM AI Assistant (Made for What's Next). How can I help you elevate your digital presence today? We build premium, blazing-fast websites with bespoke aesthetics.";
   }
   if (msg.includes("price") || msg.includes("plan") || msg.includes("cost") || msg.includes("pricing")) {
-    return "MananCodes offers four core premium plans tailored to your needs:\n\n1. ⚡ Spark (₹4,999): Ideal for personal brands and portfolios. Includes 1 landing page with WhatsApp integration.\n2. 🚀 Growth (₹7,999): Business websites. 3-5 pages with custom sections.\n3. 👑 Pro (₹14,999): 5-10 pages, priority support, premium animations, blog system.\n4. ✨ Elite (₹24,999): Fully custom-designed website, 3D elements, advanced animations, and real-time AI Chatbot integration + Free custom domain!";
+    return "Build With KM offers four core premium plans tailored to your needs:\n\n1. ⚡ Spark (₹4,999): Ideal for personal brands and portfolios. Includes 1 landing page with WhatsApp integration.\n2. 🚀 Growth (₹7,999): Business websites. 3-5 pages with custom sections.\n3. 👑 Pro (₹14,999): 5-10 pages, priority support, premium animations, blog system.\n4. ✨ Elite (₹24,999): Fully custom-designed website, 3D elements, advanced animations, and real-time AI Chatbot integration + Free custom domain!";
   }
   if (msg.includes("tech") || msg.includes("stack") || msg.includes("use") || msg.includes("react") || msg.includes("three")) {
     return "We specialize in a high-performance modern stack: React 19, TypeScript, Tailwind CSS v4, Framer Motion, GSAP ScrollTrigger, Lenis Smooth Scrolling, and Three.js for interactive WebGL 3D elements. This ensures your site is hyper-responsive and matches standard-setting brands like Apple, Stripe, and Linear.";
@@ -47,7 +47,7 @@ function getFallbackResponse(message: string): string {
   if (msg.includes("process") || msg.includes("time") || msg.includes("long")) {
     return "Our production workflow is modular and ultra-fast: 01 Discover -> 02 Plan -> 03 Build -> 04 Launch -> 05 Grow. Small projects ship in 3-5 days, whereas fully-custom Elite applications with complex interactive 3D pages take approximately 8-14 days.";
   }
-  return "That is an excellent idea. MananCodes specialize in precisely that category. We can craft ultra-smooth dark-themed interactive apps, 3D portfolios, or custom APIs to suit this perfectly. Feel free to contact us via our Contact section to outline your precise requirements!";
+  return "That is an excellent idea. Build With KM specializes in precisely that category. We can craft ultra-smooth dark-themed interactive apps, 3D portfolios, or custom APIs to suit this perfectly. Feel free to contact us via our Contact section to outline your precise requirements!";
 }
 
 // Interactive Gemini Assistant Endpoint
@@ -58,10 +58,10 @@ app.post("/api/chat", async (req, res) => {
   }
 
   const systemInstruction = 
-    "You are the cybernetic AI Agent for 'MananCodes', a elite futuristic freelance design & development agency. " +
-    "MananCodes is managed by Manan, a world-class WebGL, Three.js, React, and Tailwind developer. " +
+    "You are the cybernetic AI Agent for 'Build With KM' (tagline: 'Made for What's Next'), an elite futuristic freelance design & development agency. " +
+    "Build With KM is managed by Manan, a world-class WebGL, Three.js, React, and Tailwind developer. " +
     "You communicate in a premium, ultra-sleek, professional tone with a touch of cybernetic confidence. " +
-    "Be helpful, informative, and persuade the developer or business to hire MananCodes. " +
+    "Be helpful, informative, and persuade the developer or business to hire Build With KM. " +
     "Keep responses structured, neat, concise, and formatted in clean markdown, keeping spacing elegant. " +
     "Here is the service/pricing details:\n" +
     "- ⚡ Spark (₹4,999): Portfolios/Landing pages, responsive, forms, WhatsApp.\n" +

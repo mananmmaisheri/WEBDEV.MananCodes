@@ -168,7 +168,7 @@ export default function App() {
                   <div className="flex items-center gap-2">
                     <span className="flex h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
                     <span className="font-mono text-[9px] md:text-[10px] tracking-widest text-zinc-500 uppercase">
-                      Bespoke Agency Node — High Performance Coding
+                      BUILD WITH KM — MADE FOR WHAT&apos;S NEXT
                     </span>
                   </div>
 

@@ -9,7 +9,7 @@ export default function Chatbot() {
     {
       id: "init",
       role: "model",
-      content: "Welcome, developer. I am the **MananCodes Cybernetic Assistant**.\n\nAsk me anything about our plans, pricing, production speeds, or custom integration services. Let's construct your next digital masterpiece.",
+      content: "Welcome! I am the **Build With KM AI Assistant** (Made for What's Next).\n\nAsk me anything about our plans, pricing, production speeds, or custom integration services. Let's construct your next digital masterpiece.",
       timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
     },
   ]);

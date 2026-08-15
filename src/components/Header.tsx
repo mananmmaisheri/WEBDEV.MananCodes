@@ -57,10 +57,10 @@ export default function Header({ activePage, setActivePage }: HeaderProps) {
           </div>
           <div className="flex flex-col">
             <span className="font-heading font-black text-lg tracking-tight text-white group-hover:text-cyber-violet transition-colors duration-200">
-              MANAN<span className="text-cyber-blue">CODES</span>
+              BUILD WITH <span className="text-cyber-blue">KM</span>
             </span>
             <span className="font-mono text-[9px] text-zinc-500 tracking-widest uppercase">
-              Web Architect Node
+              Made for What&apos;s Next
             </span>
           </div>
         </div>
